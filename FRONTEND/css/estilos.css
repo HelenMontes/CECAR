@@ -75,10 +75,47 @@ border-bottom-right-radius: 20px;
 }
 
 p{
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: justify;
+margin: 20px 10px 30px 40px;
+text-align: justify;
+padding: 10px;
+
 }
+.p1{
+border: black 5px solid;
+
+}
+
+#recuadro1{
+  box-shadow: 40px 10px 20px #aaa;
+  border-radius: 20px;
+  background-color: #D83E1D;
+  width:200px;
+  padding:10px;
+}
+
+#recuadro2{
+  -moz-column-count:3;
+  -webkit-column-count:3;
+  column-count:3;
+  border-radius: 20px;
+  background-color:#ddd;
+  width:600px;
+  padding:10px;
+
+}
+h2{
+  margin: 20px 10px 30px 40px;
+  text-align: justify;
+  text-shadow: 5px 5px 5px #aaa;
+
+}
+
+h1{
+  text-shadow: -5px -5px 5px #aaa;
+}
+
+
+
 .piepagina{
 font-size: 20px;
 text-align: center;
@@ -87,8 +124,25 @@ background-color: black;
 color: white;
 
 }
+iframe{
+  margin: 10px;
+}
 
-form{
-  display: inline-block;
-   text-align: center;
+
+img{
+display:block;
+margin:auto;
+}
+
+fieldset{
+
+   margin: 20px;
+   padding:2px;
+  cursor:pointer;
+  display:inline-block;
+
+}
+
+.centrado{
+  margin: 20px 250px 10px ;
 }
